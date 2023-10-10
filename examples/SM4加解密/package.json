@@ -1,0 +1,14 @@
+{
+  "name": "sm4",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node sm4.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sm-crypto": "^0.3.12"
+  }
+}

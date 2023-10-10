@@ -9,31 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0677c1a-b94e-445c-8c24-f7664e577f1c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/iCrypto_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ankio/icrypto/ui/MainGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/ankio/icrypto/ui/MainGUI.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/BurpExtender.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/http/Cache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/http/HttpAgreement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/http/HttpAgreementRequest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/http/HttpAgreementResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/registers/HttpListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/registers/MessageEditorTab.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/registers/MessageEditorTabFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/rule/CommandType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/rule/Config.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/rule/Execution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/rule/Rule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="c0677c1a-b94e-445c-8c24-f7664e577f1c" name="Changes" comment="pref:重构完成">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SM4加解密/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SM4加解密/sm4.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/BurpExtender.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +53,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -89,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/ankio/Documents/Documents/SourceCode/Java/iCrypto/src/main/kotlin/net/ankio/icrypto/registers",
+    "last_opened_file_path": "/Users/ankio/Documents/Documents/SourceCode/Java/iCrypto/examples/SM4加解密",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/SM4加解密" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/registers" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/net/ankio/icrypto/ui" />
     </key>
@@ -249,7 +233,7 @@
       <workItem from="1696821085826" duration="4295000" />
       <workItem from="1696825866544" duration="7020000" />
       <workItem from="1696833757648" duration="46000" />
-      <workItem from="1696833817225" duration="16231000" />
+      <workItem from="1696833817225" duration="17691000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -267,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696822488639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pref:重构完成">
+      <option name="closed" value="true" />
+      <created>1696914426149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696914426149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +267,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="pref:重构完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="pref:重构完成" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
